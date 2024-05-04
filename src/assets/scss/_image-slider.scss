@@ -1,0 +1,31 @@
+/*----- 12. image slider style  -----*/
+
+.single-image {
+  overflow: hidden;
+  height: 600px;
+  @media #{$xl-layout} {
+    height: 600px;
+  }
+  @media #{$lg-layout} {
+    height: 500px;
+  }
+  @media #{$md-layout} {
+    height: 450px;
+  }
+  @media #{$xs-layout} {
+    height: 400px;
+  }
+  img{
+    height: 100%;
+  }
+  a {
+    img {
+      width: 100%;
+      transition: all 0.5s ease 0s;
+      transform: scale(1);
+    }
+  }
+  &:hover a img {
+    transform: scale(1.1);
+  }
+}
