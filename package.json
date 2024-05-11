@@ -2,7 +2,7 @@
   "name": "bazariyya-ui",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://bazariyya.com/ClientApp",
+  "homepage": "https://bazariyya.com",
   "dependencies": {
     "@thalesrc/js-utils": "^2.10.2",
     "animate.css": "^3.7.2",
