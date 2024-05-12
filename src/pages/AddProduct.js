@@ -383,7 +383,7 @@ const AddProductComp = ({ location, categories }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Bazariyya | Hayvan Ekle</title>
+        <title>Bazariyya | Ürün Ekle</title>
         <meta
           name="description"
           content="Compare page of flone react minimalist eCommerce template."
@@ -393,7 +393,7 @@ const AddProductComp = ({ location, categories }) => {
         Ana Sayfa
       </BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Hayvan Ekle
+        Ürün Ekle
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -443,7 +443,7 @@ const AddProductComp = ({ location, categories }) => {
                               </div>
                               <div className="col-lg-6 col-md-6">
                                 <div className="billing-info">
-                                  <label>Hayvan Sayısı</label>
+                                  <label>Ürün Sayısı</label>
                                   <input
                                     type="number"
                                     name="quantity"
@@ -463,7 +463,7 @@ const AddProductComp = ({ location, categories }) => {
                       <Card.Header className="panel-heading">
                         <Accordion.Toggle variant="link" eventKey="1">
                           <h3 className="panel-title">
-                            <span>2 .</span> Hayvan Bilgileri
+                            <span>2 .</span> Ürün Bilgileri
                           </h3>
                         </Accordion.Toggle>
                       </Card.Header>

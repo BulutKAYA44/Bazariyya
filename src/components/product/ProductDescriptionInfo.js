@@ -23,7 +23,7 @@ const ProductDescriptionInfo = ({
 }) => {
   const advert = [
     { name: "İlan No", value: product?.id},
-    { name: "Hayvan Sayısı", value: product?.quantity}
+    { name: "Ürün Sayısı", value: product?.quantity}
   ];
 
   const userItems = [

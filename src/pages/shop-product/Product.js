@@ -24,7 +24,7 @@ const Product = ({ location, product }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Bazariyya | Hayvan Bilgileri</title>
+        <title>Bazariyya | Ürün Bilgileri</title>
         <meta
           name="description"
           content=""

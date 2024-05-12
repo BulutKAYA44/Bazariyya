@@ -106,10 +106,11 @@ const ShopGridStandard = ({ location, categories }) => {
 
     setShowFilter(false);
   };
+  
   return (
     <Fragment>
       <MetaTags>
-        <title>Bazariyya | Hayvan Listesi</title>
+        <title>Bazariyya | Ürün Listesi</title>
         <meta
           name="description"
           content="Shop page of flone react minimalist eCommerce template."

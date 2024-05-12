@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://bazariyya.com",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.17",
     "@thalesrc/js-utils": "^2.10.2",
     "animate.css": "^3.7.2",
     "axios": "^0.19.2",

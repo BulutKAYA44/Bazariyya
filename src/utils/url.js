@@ -1,4 +1,4 @@
-const BASE_URL = "https://api.bazariyya.com/api";
+const BASE_URL = "https://localhost:5001/api";
 
 export const REGISTER_URL = `${BASE_URL}/Account/add-user`;
 export const LOGIN_URL = `${BASE_URL}/Account/token`;
